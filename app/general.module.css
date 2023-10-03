@@ -1,0 +1,663 @@
+/*Header*/
+.header{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    position: fixed;
+    z-index: 5000;
+    box-shadow: 1px 1px 10px rgb(173, 173, 173);
+}
+  
+.logoImg{
+    max-width: 100px !important;
+    padding-left: 30px;
+}
+  
+.menu{
+    display: flex;
+}
+
+.menuList{
+    display: flex;
+}
+
+.menuItem{
+    margin: 0px 20px;
+    list-style: none;
+}
+
+.menuItem a{
+    text-decoration: none;
+    color: #575757;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.menuItem a:hover{
+    color: #24609e;
+    border-bottom: 3px #24609e solid;
+    transition: all ease-in-out 300ms;
+}
+
+.contactAndLanguageButtons{
+    padding-right: 30px;
+}
+
+.contactLink{
+    text-decoration: none;
+    background: rgb(36,96,158);
+    background: linear-gradient(90deg, rgba(36,96,158,1) 0%, rgba(56,116,179,1) 50%, rgba(73,134,196,1) 100%);
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 30px;
+}
+
+/*Hero section*/
+.slideItem{
+    max-width: 100% !important;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.slideSecondItem{
+    max-width: 100% !important;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
+.slideItemDescription{
+    max-width: 480px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.generalBtnContainer{
+    margin-top: 60px;
+    max-width: 480px;
+    display: flex;
+    justify-content: center;
+}
+
+.slideItemBtnBlue{
+    width: fit-content;
+    text-decoration: none;
+    text-align: center;
+    background: rgb(36,96,158);
+    background: linear-gradient(90deg, rgba(36,96,158,1) 0%, rgba(56,116,179,1) 50%, rgba(73,134,196,1) 100%);
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.slideItemBtnBlueLight{
+    width: fit-content;
+    text-decoration: none;
+    text-align: center;
+    background: #4DA9B5;
+    background: linear-gradient(90deg, #4DA9B5 0%, #53b8c5 50%, #5bc8d6 100%);
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+/*About us section*/
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.aboutImg{
+    max-width: 30%;
+}
+
+.aboutContent{
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutContentTitle{
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    align-self: center;
+    border-bottom: 2px #4AA2AE solid;
+    font-size: 28px;
+}
+
+.aboutBox{
+    padding: 25px;
+    background: #fff;
+    box-shadow: 1px 1px 6px #8b8b8b;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.aboutBoxTitle{
+    color: #4AA2AE;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.aboutBoxDescription{
+    color: #444444;
+    line-height: 25px;
+    padding-bottom: 20px;
+    border-bottom: 2px #4AA2AE dashed;
+}
+
+/*Services*/
+.services{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/assets/img/que hacemos fondo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.servicesTitle{
+    margin-bottom: 60px;
+    font-size: 32px;
+}
+
+.servicesSubtitle{
+    font-size: 14px;
+    color: #336DAA;
+    text-transform: uppercase;
+}
+
+.servicesContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.serviceBox{
+    max-width: 300px;
+    padding: 60px 10px;
+    background-color: #fff;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 10px rgb(146, 146, 146);
+}
+
+.serviceTitle{
+    margin: 20px 0px;
+}
+
+.serviceDescription{
+    font-size: 22px;
+    text-align: center;
+    color:#575757;
+}
+
+.serviceImg{
+    max-width: 90px;
+}
+
+.servicesLinkBtnContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.servicesLinkBtn{
+    text-decoration: none;
+    text-align: center;
+    background-color: #FCBA11;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+/*Contacto*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactContent{
+    display: flex;
+    justify-content: center;
+}
+
+.contactDescription{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactDescriptionText{
+    width: 80%;
+}
+
+.contactDescriptionTitle{
+    font-size: 32px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.contactDescriptionText{
+    width: 80%;
+}
+
+.contactForm{
+    width: 50%;
+}
+
+.inputContainer {
+    width: 90%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.inputPhoneContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputCodeContainer{
+    width: 5%;
+    position: relative;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.inputNumberContainer{
+    width: 85%;
+    position: relative;
+    margin-bottom: 40px;
+}
+  
+  /* Estilo para el input */
+.inputContainer input[type="text"] {
+    border: none; /* Elimina el borde predeterminado del input */
+    border-bottom: 1px solid gray; /* Agrega el borde inferior gris de 1px */
+    padding-right: 30px; /* Espacio para el icono */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    outline: none;
+    padding-bottom: 10px;
+}
+
+.inputCodeContainer input[type="text"], .inputNumberContainer input[type="text"]{
+    border: none; /* Elimina el borde predeterminado del input */
+    border-bottom: 1px solid gray; /* Agrega el borde inferior gris de 1px */
+    padding-right: 30px; /* Espacio para el icono */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    outline: none;
+    padding-bottom: 10px;
+}
+
+.inputContainer input[type="text"]::placeholder{
+    font-size: 16px;
+}
+
+.iconContact{
+    max-width: 20px;
+}
+
+.inputContainer .iconContact, .inputNumberContainer .iconContact {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+    color: gray; /* Color del icono */
+}
+
+.messageBox{
+    width: 90%;
+    border: 1px grey solid;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.messageBox::placeholder{
+    font-size: 16px;
+}
+
+.contactBtn{
+    width: fit-content;
+    text-align: center;
+    background: rgb(36,96,158);
+    background: linear-gradient(90deg, rgba(36,96,158,1) 0%, rgba(56,116,179,1) 50%, rgba(73,134,196,1) 100%);
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    margin: 20px 0px;
+}
+
+/*Offer*/
+.offerContainer{
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url("/assets/img/como lo hacemos sin texto.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.offerSubtitle{
+    font-size: 14px;
+    color: #F7A728;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.offerTitle{
+    margin-bottom: 60px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.offerBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    padding: 10px 20px;
+    margin: 20px 10px;
+}
+
+.offerBoxTitle{
+    font-size: 22px;
+    color: #575757;
+    text-align: center;
+    width: 250px;
+}
+
+.OfferBoxDescription{
+    width: 400px;
+    color: #575757;
+    font-size: 22px;
+}
+
+.offerSeparator{
+    background-color: #F7A728;
+    min-width: 10px !important;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/*TESTIMONIO*/
+.testimonios{
+    padding: 80px 0px;
+}
+
+.testimoniosTitle{
+    margin-bottom: 60px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.testimoniosSubtitle{
+    font-size: 14px;
+    color: #C6569A;
+    text-transform: uppercase;
+    text-align: center;
+}
+.testimonioCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonioImageCard{
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.testimonioNameCard{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.testimonioDescriptionCard{
+    width: 60%;
+    height: 120px;
+    margin: 20px 0px;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+/*FOOTER*/
+.footer{
+    width: 100%;
+    background-color: #336DAA;
+}
+
+.footerContent{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoFooterImg{
+    max-width: 150px;
+    padding-left: 120px;
+}
+
+.copyrightFooter{
+    color: #fff;
+    font-size: 14px;
+}
+
+.contactFooter{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding-right: 120px;
+}
+
+.contactFooterTitle{
+    color: #fff;
+}
+
+.contactFooterItem span{
+    color: #fff;
+}
+
+/*Responsive*/
+.sliderResponsive{
+    display: none;
+}
+
+.servicesSliderResponsive{
+    display: none;
+}
+
+.offerImgResponsiveContainer{
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    /*HEADER*/
+    .menu, .contactAndLanguageButtons{
+        display: none;
+    }
+
+    .logoImg{
+        max-width: 100px !important;
+    }
+
+    .slider{
+        display: none;
+    }
+
+    .sliderResponsive{
+        display: inline-block;
+        width: 100vw;
+    }
+
+    .slideResponsiveItem{
+        padding: 50px 0px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slideItemDescription{
+        font-size: 22px;
+        padding: 0px 30px;
+    }
+
+    .slideItemBtnBlue, .slideItemBtnBlueLight{
+        font-size: 18px;
+    }
+
+    .slideResponsiveImg{
+        max-width: 350px;
+    }
+
+    .slideResponsiveImgSecond{
+        max-width: 250px;
+    }
+
+    /*About*/
+    .about{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .aboutImg{
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .aboutContent{
+        align-items: center;
+        width: 95%;
+    }
+
+    .aboutBox{
+        max-width: 90%;
+    }
+
+    /*Services*/
+    .servicesContainer{
+        display: none;
+    }
+
+    .servicesSliderResponsive{
+        display: inline-block;
+    }
+
+    /*Offer*/
+    .offerContainer{
+        width: 100%;
+        height: inherit;
+    }
+
+    .offerBox{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px;
+        margin: 20px 0px;
+    }
+
+    .offerImgResponsiveContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .offerImgResponsive{
+        max-width: 250px;
+    }
+
+    .OfferBoxDescription{
+        width: 80%;
+        text-align: center;
+    }
+
+    .offerSeparator{
+        margin: 30px 0px;
+    }
+
+    /*CONTACTO*/
+    .contactContent{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactDescription{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .contactDescriptionTitle, .contactDescriptionText{
+        text-align: center;
+    }
+
+    .contactForm{
+        width: 85%;
+    }
+
+    /*FOOTER*/
+    .footer{
+        padding: 60px 0px 80px 0px;
+    }
+
+    .footerContent{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logoFooterImg{
+        padding: 0px;
+    }
+
+    .contactFooter{
+        padding: 0px;
+        margin-top: 30px;
+    }
+}
